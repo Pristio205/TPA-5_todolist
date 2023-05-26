@@ -64,9 +64,9 @@ function TodoList() {
 
       <div className="filter-buttons">
         
-        <button className={visibilityFilter === "all" ? "active" : ""} onClick={() => handleFilterChange("all")}>All</button>
-        <button className={visibilityFilter === "active" ? "active" : ""} onClick={() => handleFilterChange("active")}>Active</button>
-        <button className={visibilityFilter === "complete" ? "active" : ""} onClick={() => handleFilterChange("complete")}>Complete</button>
+        <button className={visibilityFilter === "all" ? "active" : ""} onClick={() => handleFilterChange("all")}>ALL</button>
+        <button className={visibilityFilter === "active" ? "active" : ""} onClick={() => handleFilterChange("active")}>ACTIVE</button>
+        <button className={visibilityFilter === "complete" ? "active" : ""} onClick={() => handleFilterChange("complete")}>COMPLETED</button>
       </div>
 
       <ul className="todo-list">
